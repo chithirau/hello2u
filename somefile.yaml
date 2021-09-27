@@ -1,0 +1,8 @@
+version: "2"
+services:
+  angular_api:
+    build:
+      context: /root/CRAST/cdisc_angular_app/cdisc-ui
+    ports:
+    - 4701:80
+    restart: always
