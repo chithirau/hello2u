@@ -1,0 +1,8 @@
+version: "2"
+services:
+  angular_api:
+    build:
+      context: /root
+    ports:
+    - 4701:80
+    restart: always
